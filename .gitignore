@@ -1,0 +1,31 @@
+# Build output
+/target/
+hust-wireless-rs/target/
+**/*.rs.bk
+*.exe
+*.pdb
+
+# Root Cargo files belong to the unfinished tray prototype.
+/Cargo.toml
+/Cargo.lock
+
+# Local design notes and the tray prototype are not part of this release.
+/docs/
+/src/
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Account data and saved portal pages. Never publish these.
+wired-login-url.txt
+reference/
